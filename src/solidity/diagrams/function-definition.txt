@@ -1,0 +1,26 @@
+{
+    [
+        "function"
+        <
+            'identifier',
+            "fallback",
+            "receive"
+        >
+        "("
+        'parameter-list'?
+        ")"
+    ],
+    [
+        <
+            'visibility',
+            'state-mutability',
+            'modifier-invocation',
+            "virtual",
+            'override-specifier'
+        > * !
+    ]?,
+    [
+        ["returns" "(" 'parameter-list' ")"]?
+        <";", 'block'>
+    ]
+}

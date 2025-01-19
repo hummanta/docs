@@ -1,0 +1,1 @@
+["type" 'identifier' "is" 'elementary-type-name' ";"]

@@ -1,0 +1,12 @@
+<
+    "address",
+    ["address" "payable"],
+    "bool",
+    "string",
+    "bytes",
+    "signed-integer-type",
+    "unsigned-integer-type",
+    "fixed-bytes",
+    "fixed",
+    "ufixed"
+>

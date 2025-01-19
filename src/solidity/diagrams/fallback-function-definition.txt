@@ -1,0 +1,16 @@
+{
+    ["fallback" "(" 'parameter-list'? ")"],
+    [
+        <
+            "external",
+            'state-mutability',
+            'modifier-invocation',
+            "virtual",
+            'override-specifier'
+        > * !
+    ]?,
+    [
+        ["returns" "(" 'parameter-list' ")"]?
+        <";", 'block'>
+    ]
+}

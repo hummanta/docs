@@ -1,0 +1,5 @@
+{
+    ["modifier" 'identifier' ["(" 'parameter-list'? ")"]?],
+    [ <"virtual", 'override-specifier'> * !]?,
+    <";", 'block'>
+}

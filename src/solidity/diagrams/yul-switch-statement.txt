@@ -1,0 +1,8 @@
+{
+    ["switch" 'yul-expression'],
+    {
+        ["case" 'yul-literal' 'yul-block'] * !,
+        ["default" 'yul-block']?
+    }?,
+    ["default" 'yul-block']
+}

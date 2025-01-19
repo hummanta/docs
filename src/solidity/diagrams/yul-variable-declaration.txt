@@ -1,0 +1,4 @@
+<
+    ["let" "yul-identifier" [":=" 'yul-expression']?],
+    ["let" "yul-identifier" * "," [":=" "yul-function-call"]?]
+>

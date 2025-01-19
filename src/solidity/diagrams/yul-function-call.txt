@@ -1,0 +1,4 @@
+[
+    <"yul-identifier", "yul-evm-builtin">
+    "(" ['yul-expression' * ","]? ")"
+]

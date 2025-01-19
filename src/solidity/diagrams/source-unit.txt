@@ -1,0 +1,20 @@
+[
+    [
+        <
+            ["pragma" "pragma-token" * ! ";"],
+            "import-directive",
+            "using-directive",
+            "contract-directive",
+            "interface-definition",
+            "library-definition",
+            "function-definition",
+            "constant-variable-declaration",
+            "struct-definition",
+            "enum-definition",
+            "user-defined-value-type-definition",
+            "error-definition",
+            "event-definition"
+         > * !
+    ]?
+    "eof"
+]

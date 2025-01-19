@@ -1,0 +1,6 @@
+[book]
+authors = ["Eguo Wang"]
+language = "en"
+multilingual = false
+src = "src"
+title = "The Hummanta Documentation"

@@ -1,0 +1,14 @@
+<
+    "constructor-definition",
+    "function-definition",
+    "modifier-definition",
+    "fallback-function-definition",
+    "receive-function-definition",
+    "struct-definition",
+    "enum-definition",
+    "user-defined-value-type-definition",
+    "state-variable-declaration",
+    "event-definition",
+    "error-definition",
+    "using-directive"
+>

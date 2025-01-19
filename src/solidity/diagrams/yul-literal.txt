@@ -1,0 +1,7 @@
+<
+    "yul-decimal-number",
+    "yul-string-literal",
+    "yul-hex-number",
+    "yul-boolean",
+    "hex-string"
+>

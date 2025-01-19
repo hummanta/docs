@@ -1,0 +1,5 @@
+{
+    ["assembly" "\'\"evmasm\"\'"? 'assembly-flags'? "{"],
+    ['yul-statement' * !]?,
+    "}"
+}

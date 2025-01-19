@@ -1,0 +1,7 @@
+[
+    <
+        ['variable-declaration' ["=" 'expression']?],
+        ['variable-declaration-tuple' "=" 'expression']
+    >
+    ";"
+]

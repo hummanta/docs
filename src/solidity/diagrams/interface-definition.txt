@@ -1,0 +1,7 @@
+{
+    ["interface" 'identifier'],
+
+        ["is" ['inheritance-specifier' * ","]]?,
+        ["{" 'contract-body-element' * ! "}"]
+
+}

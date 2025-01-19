@@ -1,0 +1,12 @@
+{
+    ["constructor" "(" 'parameter-list'? ")"],
+    [
+        <
+            'modifier-invocation',
+            "payable",
+            "internal",
+            "public"
+        > * !
+    ]?,
+    'block'
+}

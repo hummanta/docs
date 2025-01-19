@@ -1,0 +1,12 @@
+{
+    [
+        "using"
+        <
+            'identifier-path',
+            ["{" 'using-aliases' * "," "}"]
+        >
+        "for"
+    ],
+    <"*", 'type-name'>,
+    ["global"? ";"]
+}

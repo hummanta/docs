@@ -1,0 +1,5 @@
+{
+    ["try" 'expression'],
+    ["returns" "(" 'parameter-list' ")"],
+    ['block' 'catch-clause' * !]
+}

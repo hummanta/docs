@@ -1,0 +1,9 @@
+[
+    "import"
+    <
+        ['path' ["as" 'identifier']? ],
+        ['symbol-aliases' "from" 'path'],
+        ["*" "as" 'identifier' "from" 'path']
+    >
+    ";"
+]

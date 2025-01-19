@@ -1,0 +1,1 @@
+["library" 'identifier' "{" ['contract-body-element' * !]? "}"]

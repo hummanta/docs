@@ -1,0 +1,13 @@
+<
+    'yul-block',
+    'yul-variable-declaration',
+    'yul-assignment',
+    'yum-function-call',
+    'yul-if-statement',
+    'yul-for-statement',
+    'yul-switch-statement',
+    "leave",
+    "break",
+    "continue",
+    'yul-function-definition'
+>

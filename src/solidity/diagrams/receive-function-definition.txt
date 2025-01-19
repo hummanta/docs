@@ -1,0 +1,15 @@
+{
+    [
+        "receive" "(" ")"
+        [
+            <
+                "external",
+                "payable",
+                'modifier-invocation',
+                "virtual",
+                'override-specifier'
+            > * !
+        ]?
+    ],
+    <";", 'block'>
+}

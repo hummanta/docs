@@ -1,0 +1,7 @@
+{
+    ["abstract"? "contract" 'identifier'],
+
+        ["is" ['inheritance-specifier' * ","]]?,
+        ["{" 'contract-body-element' * ! "}"]
+
+}

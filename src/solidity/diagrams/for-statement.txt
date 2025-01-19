@@ -1,0 +1,12 @@
+{
+    [
+        "for" "("
+        <
+            'variable-declaration-statement',
+            'expression-statement',
+            ";"
+        >
+    ],
+    <'expression-statement', ";">,
+    ['expression'? ")" 'statement']
+}

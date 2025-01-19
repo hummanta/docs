@@ -1,0 +1,7 @@
+<
+    'elementary-type-name',
+    'function-type-name',
+    'mapping-type',
+    'identifier-path',
+    ['type-name' "[" 'expression'? "]"]
+>

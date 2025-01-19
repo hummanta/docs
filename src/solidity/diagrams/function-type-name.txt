@@ -1,0 +1,6 @@
+{
+    ["function" "(" 'parameter'? ")"],
+    [<'visibility', 'state-mutability'> * !]?,
+    ["returns" "(" 'parameter-list' ")"]?,
+    !
+}

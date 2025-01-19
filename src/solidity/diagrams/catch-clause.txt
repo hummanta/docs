@@ -1,0 +1,7 @@
+{
+    [
+        'catch'
+        ['identifier'? "(" 'parameter-list' ")"]?
+    ],
+    'block'
+}

@@ -1,0 +1,18 @@
+<
+    'block',
+    <
+        'variable-declaration-statement',
+        'expression-statement'
+    >,
+    'if-statement',
+    'for-statement',
+    'while-statement',
+    'do-while-statement',
+    'continue-statement',
+    'break-statement',
+    'try-statement',
+    'return-statement',
+    'emit-statement',
+    'revert-statement',
+    'assembly-statement'
+>

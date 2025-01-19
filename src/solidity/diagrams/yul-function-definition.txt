@@ -1,0 +1,5 @@
+{
+    ["function" "yul-identifier" "(" ["yul-identifier" * ","]? ")"],
+    ["->" "yul-identifier" * ","]?,
+    'yul-block'
+}

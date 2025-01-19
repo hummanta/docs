@@ -1,0 +1,7 @@
+<
+    'string-literal',
+    'number-literal',
+    'boolean-literal',
+    'hex-string-literal',
+    'unicode-string-literal'
+>

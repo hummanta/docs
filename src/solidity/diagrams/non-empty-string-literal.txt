@@ -1,0 +1,12 @@
+<
+    [
+        "'\"'"
+        <"double-quoted-printable", "escape-sequence"> * !
+        "\'\"\'"
+    ],
+    [
+        "'\\'"
+        <"single-quoted-printable", "escape-sequence"> * !
+        "'\\''"
+    ]
+>

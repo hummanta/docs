@@ -1,0 +1,4 @@
+<
+    ['yul-path' ":=" 'yul-expression'],
+    ['yul-path' ["," 'yul-path'] * ! ":=" 'yul-function-call']
+>
