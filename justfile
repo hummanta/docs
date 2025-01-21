@@ -19,6 +19,10 @@ build: build-solidity-diagrams build-sway-diagrams build-book
 build-book:
      mdbook build
 
+# Testing the book
+test:
+    mdbook test
+
 # Serves a book at http://localhost:3000, and rebuilds it on changes
 serve: build
     mdbook serve --open

@@ -1,10 +1,8 @@
 # The Hummanta Documentation
 
-Repository for the documentation of Hummanta.
+This directory contains an `mdBook` project for the Hummanta documentation. This README will guide you on how to build and test the book locally.
 
-## Development
-
-### Pre-requisites
+## Pre-requisites
 
 To build this project you will need to install the pre-requisites:
 
@@ -20,14 +18,43 @@ For your first local build please run the following commands to install the depe
 just install
 ```
 
+## Build the book
 
-### Browsing the docs locally (including local changes)
+To build the book, use the following command:
+
+```
+just build
+```
+
+This command generates the static HTML files in the `book/` directory. You can open `book/index.html` in your browser to view the generated book.
+
+## Serve the book locally
+
+For easier development and to preview changes as you edit, you can serve the book locally with:
 
 ```
 just serve
 ```
 
-Then, open the URL as instructed.
+This will start a local web server and open the book in your default browser. Any changes made to the markdown files will automatically reload the book.
+
+By default, the book will be accessible at: http://localhost:3000.
+
+## Testing the book
+
+To ensure your book is correctly built and formatted, you can use the following command:
+
+```
+just test
+```
+
+This will check for common issues such as broken links or missing files.
+
+## Directory structure
+
+- `src/`: This directory contains all the markdown files for the chapters.
+- `book/`: This is the output directory where the built HTML files are generated.
+- `book.toml`: Configuration file for the `mdBook`.
 
 ## License
 
