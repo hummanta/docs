@@ -56,6 +56,10 @@ This will check for common issues such as broken links or missing files.
 - `book/`: This is the output directory where the built HTML files are generated.
 - `book.toml`: Configuration file for the `mdBook`.
 
+## Deployment
+
+The book is automatically deployed each time a commit is pushed to the main branch or a new release tag is created. The generated HTML files are hosted on GitHub Pages and are accessible at: https://hummanta.github.io/docs/
+
 ## License
 
 Copyright (c) The Hummanta Authors. All rights reserved.

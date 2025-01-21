@@ -1,0 +1,27 @@
+name: Continuous Integration
+
+on:
+  pull_request:
+  push:
+    paths-ignore:
+      - .github/**
+      - README.md
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+
+      - name: Install Just
+        uses: taiki-e/install-action@just
+
+      - name: Run Tests
+        run: just test
