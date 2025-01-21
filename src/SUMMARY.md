@@ -5,3 +5,7 @@
 # Solidity
 
 - [Language Grammar](./solidity/grammar.md)
+
+# Sway
+
+- [Language Grammar](./sway/grammar.md)
