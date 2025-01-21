@@ -1,5 +1,5 @@
 <
-    ["{" 'use-tree' ! *["," 'use-tree'] "}"],
+    ["{" 'use-tree' * "," "}"],
     ['ident'],
     ['ident' "as" 'ident'],
     ["*"],
