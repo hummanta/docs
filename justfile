@@ -13,7 +13,7 @@ uninstall:
     cargo uninstall mdbook
 
 # Build syntax diagrams and book
-build: build-solidity-diagrams build-book
+build: build-solidity-diagrams build-sway-diagrams build-book
 
 # Builds a book from its markdown files
 build-book:
@@ -27,7 +27,7 @@ serve: build
 clean: clean-diagrams clean-book
 
 # Clean all generated syntax diagrams
-clean-diagrams: clean-solidity-diagrams
+clean-diagrams: clean-solidity-diagrams clean-sway-diagrams
 
 # Deletes built book
 clean-book:
@@ -37,6 +37,14 @@ clean-book:
 build-solidity-diagrams:
     railroad --format svg src/solidity/diagrams/*.txt
 
+# Generate Sway syntax diagrams
+build-sway-diagrams:
+    railroad --format svg src/sway/diagrams/*.txt
+
 # Remove generated solidity syntax diagrams
 clean-solidity-diagrams:
     -rm src/solidity/diagrams/*.svg
+
+# Remove generated sway syntax diagrams
+clean-sway-diagrams:
+    -rm src/sway/diagrams/*.svg
