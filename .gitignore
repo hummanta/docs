@@ -1,4 +1,4 @@
 book
-*.svg
-*.png
+**/diagrams/*.svg
+**/diagrams/*.png
 /.idea/
