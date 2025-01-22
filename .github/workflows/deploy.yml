@@ -6,6 +6,9 @@ on:
       - v[0-9]+.*
     branches:
       - main
+    paths-ignore:
+      - .github/**
+      - README.md
 
 jobs:
   deploy:
