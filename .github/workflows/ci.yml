@@ -22,5 +22,8 @@ jobs:
       - name: Install Just
         uses: taiki-e/install-action@just
 
+      - name: Install Pre-requisites
+        run: just install
+
       - name: Run Tests
         run: just test
