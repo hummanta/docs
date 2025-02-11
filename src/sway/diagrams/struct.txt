@@ -1,0 +1,1 @@
+["pub"? "struct" 'ident' 'generic-params'? 'where-clause'? "{" 'struct-member' *  "," "}"]
