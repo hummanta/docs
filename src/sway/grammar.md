@@ -52,6 +52,12 @@ Definition of type-alias. To declare a type alias to give an existing type anoth
 
 ![Rule use](diagrams/type-alias.svg)
 
+### constants
+
+Definition of constants. ([AST: ItemConst](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_const.rs#L4))
+
+![Rule use](diagrams/const.svg)
+
 ### abi
 Definition of a smart contract.([AST:ItemAbi](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_abi.rs#L4))  
 Document: [smart_contracts](https://docs.fuel.network/docs/sway/sway-program-types/smart_contracts/)
