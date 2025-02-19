@@ -1,1 +1,5 @@
-["abi" 'indent' [":" ['path' ["+" 'path']*!]]?#`super-traits` "{" <'function-signature', 'item-const', 'trait-type'>*!#`item-trait-item` ['function'*!]? "}"]
+{
+    ["abi" 'ident' [":" 'traits']?],
+    ["{" 'trait-item'*! "}"],
+    ["{" 'fn'*! "}"]?
+}

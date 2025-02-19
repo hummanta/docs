@@ -59,6 +59,13 @@ Definition of constants. ([AST: ItemConst](https://github.com/FuelLabs/sway/blob
 ![Rule use](diagrams/const.svg)
 
 ### abi
-Definition of a smart contract.([AST:ItemAbi](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_abi.rs#L4))  
-Document: [smart_contracts](https://docs.fuel.network/docs/sway/sway-program-types/smart_contracts/)
+ABI stands for Application Binary Interface.([AST: ItemAbi](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_abi.rs#L4), [doc: Defining the ABI](https://docs.fuel.network/guides/intro-to-sway/contract-abi/#defining-the-abi)).
 ![Rule abi](diagrams/abi.svg)
+
+### traits
+Definition of traits. Can be Used for abi and trait.([AST: Traits](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_trait.rs#L65))
+![Rule traits](diagrams/traits.svg).
+
+### trait-item
+Define an item of an trait. ([AST: ItemTraitItem](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_trait.rs#L6)).
+![Rule trait-item](diagrams/trait-item.svg)
