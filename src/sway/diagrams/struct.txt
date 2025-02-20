@@ -1,1 +1,1 @@
-["pub"? "struct" 'ident' 'generic-params'? 'where-clause'? "{" 'struct-member' *  "," "}"]
+["pub"? "struct" 'ident' 'generic-params'? 'where-clause'? "{" 'type-field' *  "," "}"]

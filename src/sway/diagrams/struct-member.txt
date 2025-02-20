@@ -1,1 +1,0 @@
-["pub"? 'ident' ":" 'type-name']

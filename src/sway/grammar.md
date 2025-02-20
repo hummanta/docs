@@ -28,11 +28,11 @@ Definition of a struct. Can occur at top-level within a source unit or within a 
 
 ![Rule use](diagrams/struct.svg)
 
-### struct-member
+### type-field
 
-The declaration of a named struct member. ([AST: TypeField](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/mod.rs#L68))
+Definition of TypeField. ([AST: TypeField](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/mod.rs#L68))
 
-![Rule use](diagrams/struct-member.svg)
+![Rule use](diagrams/type-field.svg)
 
 ### type-name
 
@@ -45,12 +45,6 @@ Definition of TypeName. ([AST: Ty](https://github.com/FuelLabs/sway/blob/v0.66.5
 Definition of an enum. Can occur at top-level within a source unit or within a contract, library or interface. ([AST: ItemEnum](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_enum.rs#L4))
 
 ![Rule use](diagrams/enum.svg)
-
-### enum-member
-
-The declaration of a named enum member. ([AST: TypeField](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/mod.rs#L68))
-
-![Rule use](diagrams/enum-member.svg)
 
 ### traits
 Definition of traits. Can be Used for abi and trait.([AST: Traits](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_trait.rs#L65))
@@ -67,9 +61,9 @@ ABI stands for Application Binary Interface.([AST: ItemAbi](https://github.com/F
 
 ![Rule abi](diagrams/abi.svg)
 
-### constants
+### const
 
-Definition of constants. ([AST: ItemConst](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_const.rs#L4))
+Define constant items. ([AST: ItemConst](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_const.rs#L4))
 
 ![Rule use](diagrams/const.svg)
 

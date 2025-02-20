@@ -1,1 +1,1 @@
-["pub"? "enum" 'ident' 'generic-params'? 'where-clause'? "{" 'enum-member' *  "," "}"]
+["pub"? "enum" 'ident' 'generic-params'? 'where-clause'? "{" 'type-field' *  "," "}"]
