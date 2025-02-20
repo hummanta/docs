@@ -4,6 +4,12 @@ Sway is a domain-specific programming language for implementing smart contracts 
 
 ## Parser Grammar
 
+### module
+
+On top level, Sway allows module kind and definitions of submodule, storage, contracts, traits, libraries, structs, enums and constants. ([AST: Module](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/module.rs#L4))
+
+![Rule module](diagrams/module.svg)
+
 ### use
 
 Provides several utility types and methods we can use in our contract. ([AST: ItemUse](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_use.rs#L4))
@@ -20,7 +26,7 @@ Path of a types or methods to be imported. ([AST: UseTree](https://github.com/Fu
 
 Definition of a struct. Can occur at top-level within a source unit or within a contract, library or interface. ([AST: ItemStruct](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_struct.rs#L4))
 
-![Rule use](diagrams/struct.svg) 
+![Rule use](diagrams/struct.svg)
 
 ### struct-member
 
@@ -46,11 +52,20 @@ The declaration of a named enum member. ([AST: TypeField](https://github.com/Fue
 
 ![Rule use](diagrams/enum-member.svg)
 
-### type-alias
+### traits
+Definition of traits. Can be Used for abi and trait.([AST: Traits](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_trait.rs#L65))
 
-Definition of type-alias. To declare a type alias to give an existing type another name. ([AST: ItemTypeAlias](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_type_alias.rs#L4))
+![Rule traits](diagrams/traits.svg)
 
-![Rule use](diagrams/type-alias.svg)
+### trait-item
+Define an item of an trait. ([AST: ItemTraitItem](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_trait.rs#L6)).
+
+![Rule trait-item](diagrams/trait-item.svg)
+
+### abi
+ABI stands for Application Binary Interface.([AST: ItemAbi](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_abi.rs#L4), [doc: Defining the ABI](https://docs.fuel.network/guides/intro-to-sway/contract-abi/#defining-the-abi)).
+
+![Rule abi](diagrams/abi.svg)
 
 ### constants
 
@@ -58,14 +73,9 @@ Definition of constants. ([AST: ItemConst](https://github.com/FuelLabs/sway/blob
 
 ![Rule use](diagrams/const.svg)
 
-### abi
-ABI stands for Application Binary Interface.([AST: ItemAbi](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_abi.rs#L4), [doc: Defining the ABI](https://docs.fuel.network/guides/intro-to-sway/contract-abi/#defining-the-abi)).
-![Rule abi](diagrams/abi.svg)
 
-### traits
-Definition of traits. Can be Used for abi and trait.([AST: Traits](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_trait.rs#L65))
-![Rule traits](diagrams/traits.svg).
+### type-alias
 
-### trait-item
-Define an item of an trait. ([AST: ItemTraitItem](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_trait.rs#L6)).
-![Rule trait-item](diagrams/trait-item.svg)
+Definition of type-alias. To declare a type alias to give an existing type another name. ([AST: ItemTypeAlias](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_type_alias.rs#L4))
+
+![Rule use](diagrams/type-alias.svg)
