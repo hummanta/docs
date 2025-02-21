@@ -1,0 +1,11 @@
+<
+    'or',
+    'wildcard',
+    'ambiguous-single-ident',
+    'var',
+    'literal',
+    'constant',
+    'constructor',
+    'struct',
+    'tuple'
+>
