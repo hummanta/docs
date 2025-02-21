@@ -100,9 +100,14 @@ fn-signature declares signature for function. ([AST: FnSignature](https://github
 ## generic-params
 Generic types are a way to refer to types in general, meaning without specifying a single type. ([AST: GenericParams](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/generics.rs#L4), [doc: Generic Types](https://fuellabs.github.io/sway/v0.66.5/book/advanced/generic_types.html)).
 
-![Rule GenericParams](diagrams/generic-params.svg)
+![Rule generic-params](diagrams/generic-params.svg)
 
 ## where-clause
-Where clause can be used to specify the required traits for the generic argument.([AST: WhereClause](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/where_clause.rs#L4), [doc: Trait Constraints](https://fuellabs.github.io/sway/v0.66.5/book/advanced/generic_types.html#trait-constraints)).
+Where clause can be used to specify the required traits for the generic argument. ([AST: WhereClause](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/where_clause.rs#L4), [doc: Trait Constraints](https://fuellabs.github.io/sway/v0.66.5/book/advanced/generic_types.html#trait-constraints)).
 
 ![Rule where-clause](diagrams/where-clause.svg)
+
+## code-block-contents
+
+A CodeBlockContents represents the body of a code block, which contains a sequence of statements and expressions. ([AST: CodeBlockContents](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/expr/mod.rs#L425), [doc: Functions](https://fuellabs.github.io/sway/v0.66.5/book/basics/functions.html)).
+![Rule code-block-contents](diagrams/code-block-contents.svg)
