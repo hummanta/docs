@@ -85,3 +85,39 @@ Configurable constants are special constants that behave like regular constants 
 Definition of type-alias. To declare a type alias to give an existing type another name. ([AST: ItemTypeAlias](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_type_alias.rs#L4))
 
 ![Rule use](diagrams/type-alias.svg)
+
+### fn
+
+Functions in Sway are declared with the fn keyword. ([AST: ItemFn](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_fn.rs#L4), [doc: Functions](https://fuellabs.github.io/sway/v0.66.5/book/basics/functions.html))
+
+![Rule fn](diagrams/fn.svg)
+
+### fn-signature
+fn-signature declares signature for function. ([AST: FnSignature](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/mod.rs#L111), [doc: Functions](https://fuellabs.github.io/sway/v0.66.5/book/basics/functions.html))
+
+![Rule fn](diagrams/fn-signature.svg)
+
+### generic-params
+Generic types are a way to refer to types in general, meaning without specifying a single type. ([AST: GenericParams](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/generics.rs#L4), [doc: Generic Types](https://fuellabs.github.io/sway/v0.66.5/book/advanced/generic_types.html)).
+
+![Rule generic-params](diagrams/generic-params.svg)
+
+### where-clause
+Where clause can be used to specify the required traits for the generic argument. ([AST: WhereClause](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/where_clause.rs#L4), [doc: Trait Constraints](https://fuellabs.github.io/sway/v0.66.5/book/advanced/generic_types.html#trait-constraints)).
+
+![Rule where-clause](diagrams/where-clause.svg)
+
+### code-block-contents
+
+A CodeBlockContents represents the body of a code block, which contains a sequence of statements and expressions. ([AST: CodeBlockContents](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/expr/mod.rs#L425), [doc: Functions](https://fuellabs.github.io/sway/v0.66.5/book/basics/functions.html)).
+![Rule code-block-contents](diagrams/code-block-contents.svg)
+
+### fn-arg
+A fn-arg represents function arguments. ([AST: FnArg](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/mod.rs#L98), [doc: Functions](https://fuellabs.github.io/sway/v0.66.5/book/basics/functions.html)).
+![Rule fn-arg](diagrams/fn-arg.svg)
+
+### pattern
+A pattern is a construct used to match and destructure data. ([AST: Pattern](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/pattern.rs#L6), [doc: match expressions](https://fuellabs.github.io/sway/v0.66.5/book/basics/control_flow.html#match-expressions)).
+![Rule pattern](diagrams/pattern.svg)
+
+

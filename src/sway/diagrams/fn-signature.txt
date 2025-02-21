@@ -1,0 +1,7 @@
+[
+    "pub"? "fn" 'ident' 'generic-params'? "("
+        <
+        ['fn-arg' * ","]#`static: immuable`,
+        ["ref"? "mut"? "self" ["," ['fn-arg' * ","]]?]#`non static: mutable`
+        >#`fn-args` ")" ["->" 'type-name']? 'where-clause'?
+]
