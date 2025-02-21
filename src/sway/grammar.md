@@ -53,7 +53,7 @@ Definition of an enum. Can occur at top-level within a source unit or within a c
 ![Rule use](diagrams/enum.svg)
 
 ### traits
-Definition of traits. Can be Used for abi and trait.([AST: Traits](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_trait.rs#L65))
+Definition of traits. Can be used for abi and trait.([AST: Traits](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_trait.rs#L65))
 
 ![Rule traits](diagrams/traits.svg)
 
@@ -63,7 +63,7 @@ Define an item of an trait. ([AST: ItemTraitItem](https://github.com/FuelLabs/sw
 ![Rule trait-item](diagrams/trait-item.svg)
 
 ### abi
-ABI stands for Application Binary Interface.([AST: ItemAbi](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_abi.rs#L4), [doc: Defining the ABI](https://docs.fuel.network/guides/intro-to-sway/contract-abi/#defining-the-abi)).
+ABI stands for Application Binary Interface.([AST: ItemAbi](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_abi.rs#L4), [doc: The ABI Declaration](https://fuellabs.github.io/sway/v0.66.5/book/sway-program-types/smart_contracts.html#the-abi-declaration)).
 
 ![Rule abi](diagrams/abi.svg)
 
