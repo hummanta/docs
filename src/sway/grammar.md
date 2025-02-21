@@ -85,3 +85,8 @@ Configurable constants are special constants that behave like regular constants 
 Definition of type-alias. To declare a type alias to give an existing type another name. ([AST: ItemTypeAlias](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_type_alias.rs#L4))
 
 ![Rule use](diagrams/type-alias.svg)
+
+### trait
+A trait opts a type into a certain type of behavior or functionality that can be shared among types. This allows for easy reuse of code and generic programming. ([AST: ItemTrait](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_trait.rs#L15), [doc: Declaring a Trait](https://fuellabs.github.io/sway/v0.66.5/book/advanced/traits.html#declaring-a-trait)).
+
+![Rule trait](diagrams/trait.svg)
