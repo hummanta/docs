@@ -1,5 +1,5 @@
 <
-    'const',
-    'fn-signature',
-    'trait-type'
+    ['const' ";"?],
+    ['fn-signature' ";"?],
+    ['trait-type' ";"?]
 >
