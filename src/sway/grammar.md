@@ -32,25 +32,25 @@ Path of a types or methods to be imported. ([AST: UseTree](https://github.com/Fu
 
 Definition of a struct. Can occur at top-level within a source unit or within a contract, library or interface. ([AST: ItemStruct](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_struct.rs#L4))
 
-![Rule use](diagrams/struct.svg)
+![Rule struct](diagrams/struct.svg)
 
 ### type-field
 
 Definition of TypeField. ([AST: TypeField](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/mod.rs#L68))
 
-![Rule use](diagrams/type-field.svg)
+![Rule type-field](diagrams/type-field.svg)
 
 ### type-name
 
 Definition of TypeName. ([AST: Ty](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/ty/mod.rs#L5))
 
-![Rule use](diagrams/type-name.svg)
+![Rule type-name](diagrams/type-name.svg)
 
 ### enum
 
 Definition of an enum. Can occur at top-level within a source unit or within a contract, library or interface. ([AST: ItemEnum](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_enum.rs#L4))
 
-![Rule use](diagrams/enum.svg)
+![Rule enum](diagrams/enum.svg)
 
 ### traits
 Definition of traits. Can be used for abi and trait.([AST: Traits](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_trait.rs#L65))
@@ -71,11 +71,11 @@ ABI stands for Application Binary Interface.([AST: ItemAbi](https://github.com/F
 
 Define constant items. ([AST: ItemConst](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_const.rs#L4))
 
-![Rule use](diagrams/const.svg)
+![Rule const](diagrams/const.svg)
 
 ### configurable
 
-Configurable constants are special constants that behave like regular constants in the sense that they cannot change during program execution, but they can be configured after the Sway program has been built. ([AST: ItemConfigurable](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_configurable.rs#L4), [doc: Configurable Constants](https://docs.fuel.network/docs/sway/basics/constants/#configurable-constants))
+Configurable constants are special constants that behave like regular constants in the sense that they cannot change during program execution, but they can be configured after the Sway program has been built. ([AST: ItemConfigurable](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_configurable.rs#L4), [doc: Configurable Constants](https://fuellabs.github.io/sway/v0.66.5/book/basics/constants.html#configurable-constants))
 
 ![Rule configurable](diagrams/configurable.svg)
 
@@ -84,7 +84,7 @@ Configurable constants are special constants that behave like regular constants 
 
 Definition of type-alias. To declare a type alias to give an existing type another name. ([AST: ItemTypeAlias](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_type_alias.rs#L4))
 
-![Rule use](diagrams/type-alias.svg)
+![Rule type-alias](diagrams/type-alias.svg)
 
 ### fn
 
@@ -95,7 +95,7 @@ Functions in Sway are declared with the fn keyword. ([AST: ItemFn](https://githu
 ### fn-signature
 fn-signature declares signature for function. ([AST: FnSignature](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/mod.rs#L111), [doc: Functions](https://fuellabs.github.io/sway/v0.66.5/book/basics/functions.html))
 
-![Rule fn](diagrams/fn-signature.svg)
+![Rule fn-signature](diagrams/fn-signature.svg)
 
 ### generic-params
 Generic types are a way to refer to types in general, meaning without specifying a single type. ([AST: GenericParams](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/generics.rs#L4), [doc: Generic Types](https://fuellabs.github.io/sway/v0.66.5/book/advanced/generic_types.html)).
