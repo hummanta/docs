@@ -1,0 +1,6 @@
+{
+    ["pub"? "trait" 'indent' 'generic-params'? [":" 'traits']?],
+    'where-clause'?,
+        ["{" 'trait-item'*! "}"],
+    ["{" 'fn' * ! "}"]?
+}

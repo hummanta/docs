@@ -108,7 +108,6 @@ Where clause can be used to specify the required traits for the generic argument
 ![Rule where-clause](diagrams/where-clause.svg)
 
 ### code-block-contents
-
 A CodeBlockContents represents the body of a code block, which contains a sequence of statements and expressions. ([AST: CodeBlockContents](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/expr/mod.rs#L425), [doc: Functions](https://fuellabs.github.io/sway/v0.66.5/book/basics/functions.html)).
 ![Rule code-block-contents](diagrams/code-block-contents.svg)
 
@@ -120,4 +119,6 @@ A fn-arg represents function arguments. ([AST: FnArg](https://github.com/FuelLab
 A pattern is a construct used to match and destructure data. ([AST: Pattern](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/pattern.rs#L6), [doc: match expressions](https://fuellabs.github.io/sway/v0.66.5/book/basics/control_flow.html#match-expressions)).
 ![Rule pattern](diagrams/pattern.svg)
 
-
+### trait
+A trait opts a type into a certain type of behavior or functionality that can be shared among types. This allows for easy reuse of code and generic programming. ([AST: ItemTrait](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_trait.rs#L15), [doc: Declaring a Trait](https://fuellabs.github.io/sway/v0.66.5/book/advanced/traits.html#declaring-a-trait)).
+![Rule trait](diagrams/trait.svg)
