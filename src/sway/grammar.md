@@ -75,7 +75,7 @@ Define constant items. ([AST: ItemConst](https://github.com/FuelLabs/sway/blob/v
 
 ### configurable
 
-Configurable constants are special constants that behave like regular constants in the sense that they cannot change during program execution, but they can be configured after the Sway program has been built. ([AST: ItemConfigurable](https://github.com/FuelLabs/sway/blob/94a066652468b4afa3bd396dacef482ed590976b/sway-ast/src/item/item_configurable.rs#L4), [doc: Configurable Constants](https://docs.fuel.network/docs/sway/basics/constants/#configurable-constants))
+Configurable constants are special constants that behave like regular constants in the sense that they cannot change during program execution, but they can be configured after the Sway program has been built. ([AST: ItemConfigurable](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_configurable.rs#L4), [doc: Configurable Constants](https://docs.fuel.network/docs/sway/basics/constants/#configurable-constants))
 
 ![Rule configurable](diagrams/configurable.svg)
 
