@@ -10,6 +10,12 @@ On top level, Sway allows module kind and definitions of submodule, storage, con
 
 ![Rule module](diagrams/module.svg)
 
+### submodule
+
+The `mod` keyword registers a submodule, making its items (such as functions and structs) accessible from the parent library. If used at the top level it will refer to a file in the src folder and in other cases in a folder named after the library in which it is defined. ([AST: Submodule](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/submodule.rs#L4))
+
+![Rule submodule](diagrams/submodule.svg)
+
 ### use
 
 Provides several utility types and methods we can use in our contract. ([AST: ItemUse](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_use.rs#L4))
