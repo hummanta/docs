@@ -125,6 +125,6 @@ A trait opts a type into a certain type of behavior or functionality that can be
 
 ### impl
 
-Implement inherent or trait functionality. ([AST: ItemImpl](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_impl.rs#L11))
+Implement inherent or trait functionality. ([AST: ItemImpl](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_impl.rs#L11), [doc: Implementing a Trait](https://fuellabs.github.io/sway/v0.66.5/book/advanced/traits.html?highlight=impl#abi-supertraits))
 
 ![Rule impl](diagrams/impl.svg)
