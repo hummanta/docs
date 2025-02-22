@@ -123,6 +123,12 @@ A pattern is a construct used to match and destructure data. ([AST: Pattern](htt
 A trait opts a type into a certain type of behavior or functionality that can be shared among types. This allows for easy reuse of code and generic programming. ([AST: ItemTrait](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_trait.rs#L15), [doc: Declaring a Trait](https://fuellabs.github.io/sway/v0.66.5/book/advanced/traits.html#declaring-a-trait)).
 ![Rule trait](diagrams/trait.svg)
 
+### impl
+
+Implement inherent or trait functionality. ([AST: ItemImpl](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_impl.rs#L11), [doc: Implementing a Trait](https://fuellabs.github.io/sway/v0.66.5/book/advanced/traits.html?highlight=impl#abi-supertraits))
+
+![Rule impl](diagrams/impl.svg)
+
 ### storage
 
 In smart contract development, persistent storage (storage) is used to store values that persist after the contract exits, unlike regular memory values that disappear. ([AST: ItemStorage](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_storage.rs#L4), [doc: Declaring storage](https://fuellabs.github.io/sway/v0.66.5/book/blockchain-development/storage.html?highlight=Storage#storage))
@@ -134,5 +140,4 @@ In smart contract development, persistent storage (storage) is used to store val
 Define storage entry. ([AST: StorageEntry](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/item/item_storage.rs#L17), [doc: Declaring storage](https://fuellabs.github.io/sway/v0.66.5/book/blockchain-development/storage.html?highlight=Storage#storage))
 
 ![Rule storage-entry](diagrams/storage-entry.svg)
-
 
