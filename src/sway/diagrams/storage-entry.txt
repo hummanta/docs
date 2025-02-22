@@ -1,0 +1,7 @@
+{
+   [
+       'ident'
+       ["{" 'storage-entry' *  "," "}"]?
+   ],
+   ['ident' "in"? 'expr'? ":" 'type-name' "=" 'expr']?
+}
