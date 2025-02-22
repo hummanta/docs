@@ -1,0 +1,12 @@
+{
+    ["impl" 'generic-params'? ['path-type' "for"]? 'type-name' 'where-clause'?],
+    [
+        "{"
+         <
+             'fn',
+             'const',
+             'trait-type'
+         >*!
+         "}"
+    ]
+}
