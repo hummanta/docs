@@ -141,3 +141,8 @@ Define storage entry. ([AST: StorageEntry](https://github.com/FuelLabs/sway/blob
 
 ![Rule storage-entry](diagrams/storage-entry.svg)
 
+### expr
+
+Define types of expressions. ([AST: Expr](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/expr/mod.rs#L9), [doc: If Expressions](https://fuellabs.github.io/sway/v0.66.5/book/basics/control_flow.html?highlight=expr#if-expressions))
+
+![Rule expr](diagrams/expr.svg)
