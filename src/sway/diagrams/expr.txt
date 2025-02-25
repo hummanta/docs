@@ -27,19 +27,16 @@
     'modulo',
     'add',
     'sub',
-    'shl',
-    'shr',
-    'bit-and',
-    'bit-xor',
-    'bit-or',
-    'equal',
-    'not-equal',
-    'less-than',
-    'greater-than',
-    'less-than-eq',
-    'greater-than-eq',
-    'logical-and',
-    'logical-or',
+    [
+        'expr'
+        <"==", "!=">
+        'expr'
+    ],
+    [
+        'expr'
+        <"<<", ">>", "&", "^", "|", "<", ">", "<=", ">=", "&&", "||">
+        'expr'
+    ],
     'reassignment',
     'break',
     'continue'
