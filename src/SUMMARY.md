@@ -2,6 +2,10 @@
 
 [The Hummanta Documentation](./README.md)
 
+# Concepts
+
+- [Target](./concepts/target.md)
+
 # Solidity
 
 - [Language Grammar](./solidity/grammar.md)
