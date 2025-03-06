@@ -60,6 +60,8 @@ hummanta target list
 - `show`: Displays the details of the specified target.
 - `list`: Lists all configured targets.
 
+For more information about the `target`, see the core concept [Target](../concepts/target.md).
+
 ## Frequently Asked Questions
 
 ### 1. How do I switch the target platform?
