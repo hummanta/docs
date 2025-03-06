@@ -9,3 +9,7 @@
 # Sway
 
 - [Language Grammar](./sway/grammar.md)
+
+# References
+
+- [CLI Reference](./references/cli.md)
