@@ -4,7 +4,7 @@
 
 Hummanta is a tool for compiling multiple languages, supporting the build and compilation of projects such as Solidity and Rust. The toolchain provides a flexible command-line interface, allowing users to easily manage and compile code for different target platforms. The following commands are available for building, managing, and configuring the workspace:
 
-```
+```text
 USAGE:
     hummanta <SUBCOMMAND>
 
