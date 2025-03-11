@@ -146,3 +146,26 @@ Define storage entry. ([AST: StorageEntry](https://github.com/FuelLabs/sway/blob
 Define types of expressions. ([AST: Expr](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/expr/mod.rs#L9), [doc: If Expressions](https://fuellabs.github.io/sway/v0.66.5/book/basics/control_flow.html?highlight=expr#if-expressions))
 
 ![Rule expr](diagrams/expr.svg)
+
+### path-expr
+Define of path expressions, such as module or function access. ([AST: PathExpr](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/path.rs#L4))
+![Rule path-expr](diagrams/path-expr.svg)
+
+### qualified-path-root
+It is a part of path-expr or path-type.
+Define a type with an optional trait alias, allowing the expression of a qualified path that includes a type and optionally a trait it is associated with. ([AST: QualifiedPathRoot](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/path.rs#L111))
+![Rule qualified-path-root](diagrams/qualified-path-root.svg)
+
+### path-expr-segment
+It is a part of path-expr or method-call expr.
+Define a segment of a path expression, consisting of a name (identifier) and optionally associated generic arguments with a :: separator. ([AST: PathExprSegment](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/path.rs#L15)).
+![path-expr-segment](diagrams/path-expr-segment.svg)
+
+### path-type
+Define a type path, consisting of an optional qualified root, a prefix, and a series of suffixes, each potentially followed by generic arguments, to express complex type references. ([AST: PathType](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/path.rs#L61)).
+![path-type](diagrams/path-type.svg)
+
+### generic-args
+It is a part of path-expr or path-type.
+Define the generic type parameters enclosed in angle brackets (<>), where the parameters are a punctuated list of types separated by commas. ([AST: GenericArgs](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/generics.rs#L9)).
+![generic-args](diagrams/generic-args.svg)
