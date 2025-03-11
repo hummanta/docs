@@ -14,6 +14,10 @@
 
 - [Language Grammar](./sway/grammar.md)
 
+# Move
+
+- [Sui Move Language Grammar](./move/sui-move-grammar.md)
+
 # References
 
 - [CLI Reference](./references/cli.md)
