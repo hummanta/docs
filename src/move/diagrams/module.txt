@@ -1,0 +1,13 @@
+{
+    ["module" 'address' "::" 'identifier' "{"],
+    <
+        "function",
+        "struct-definition",
+        "enum-definition",
+        "use-decl",
+        "friend-decl",
+        "constant",
+        "spec"
+    > * !,
+    ["}"]
+}
