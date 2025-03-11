@@ -1,0 +1,1 @@
+[ [["<" 'qualified-path-root' ">"]? "::"]?#`root_opt` 'path-expr-segment' ["::" 'path-expr-segment']*! ]

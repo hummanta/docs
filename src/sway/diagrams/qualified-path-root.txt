@@ -1,0 +1,1 @@
+['type-name' ["as" 'path-type']?]
