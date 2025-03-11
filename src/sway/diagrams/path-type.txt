@@ -1,1 +1,1 @@
-[ [["<" 'qualified-path-root' ">"]? "::"]?#`root_opt` 'path-type-segment' ["::" 'path-type-segment']*!]
+[ [["<" 'qualified-path-root' ">"]? "::"]?#`root_opt` 'path-type-segment' ["::" ['ident' ["::"? 'generic-args']?]#`path-type-segment`]*!]

@@ -169,8 +169,3 @@ Define a type path, consisting of an optional qualified root, a prefix, and a se
 It is a part of path-expr or path-type.
 Define the generic type parameters enclosed in angle brackets (<>), where the parameters are a punctuated list of types separated by commas. ([AST: GenericArgs](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/generics.rs#L9)).
 ![generic-args](diagrams/generic-args.svg)
-
-### path-type-segment
-It is a part of path-type.
-Define a segment of a type path, consisting of a name (identifier) and optionally associated generic arguments with an optional :: separator. ([AST: PathTypeSegment](https://github.com/FuelLabs/sway/blob/v0.66.5/sway-ast/src/path.rs#L95)).
-![path-type-segment](diagrams/path-type-segment.svg)
