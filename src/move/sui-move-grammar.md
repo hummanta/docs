@@ -16,6 +16,17 @@ An enum is a user-defined data structure containing one or more variants. Each v
 
 ![Rule enum-definition](diagrams/enum-definition.svg)
 
+### abilities
+
+This type is used in multiple places. To avoid redundant definitions, a shared virtual type is created to simplify imports.
+
+![Rule abilities](diagrams/abilities.svg)
+
+### type-parameters
+
+This type is used in multiple places. To avoid redundant definitions, a shared virtual type is created to simplify imports.
+
+![Rule type-parameters](diagrams/type-parameters.svg)
 
 ### ability
 

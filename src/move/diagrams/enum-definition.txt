@@ -1,7 +1,5 @@
 {
-    'doc-comment',
-    'attributes' * !,
-    ["public" "enum" 'datatype-name' ["has" 'ability' * "," ]? "{" ],
-    'variant-definition' * ",",
-    "}"
+    <'doc-comment'?, ['attributes' * !]?>,
+    ["public" "enum" 'name' 'type-parameters'? 'abilities'?],
+    ["{" 'variant-definition' * "," "}"]
 }

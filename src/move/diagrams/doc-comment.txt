@@ -1,1 +1,1 @@
-[["\'///\'" 'string'] * !] ? # `doc comment`
+["\'///\'" 'string'] * !
