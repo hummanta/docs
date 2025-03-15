@@ -1,0 +1,5 @@
+{
+    ["public" "enum" 'datatype-name' ["has" 'attribute' * "," ]? "{" ],
+    'variant-definition' * ",",
+    "}"
+}
