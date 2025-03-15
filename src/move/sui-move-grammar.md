@@ -16,6 +16,7 @@ An enum is a user-defined data structure containing one or more variants. Each v
 
 ![Rule enum-definition](diagrams/enum-definition.svg)
 
+
 ### ability
 
 Abilities are a typing feature in Move that control what actions are permissible for values of a given type. (AST: [Ability](https://github.com/MystenLabs/sui/blob/mainnet-v1.43.1/external-crates/move/crates/move-compiler/src/parser/ast.rs#L427), Doc: [Abilities](https://move-book.com/reference/abilities.html))

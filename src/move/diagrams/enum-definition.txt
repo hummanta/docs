@@ -1,5 +1,6 @@
 {
     'doc-comment',
+    'attributes' * !,
     ["public" "enum" 'datatype-name' ["has" 'ability' * "," ]? "{" ],
     'variant-definition' * ",",
     "}"
