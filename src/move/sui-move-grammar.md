@@ -21,3 +21,9 @@ An enum is a user-defined data structure containing one or more variants. Each v
 Abilities are a typing feature in Move that control what actions are permissible for values of a given type. (AST: [Ability](https://github.com/MystenLabs/sui/blob/mainnet-v1.43.1/external-crates/move/crates/move-compiler/src/parser/ast.rs#L427), Doc: [Abilities](https://move-book.com/reference/abilities.html))
 
 ![Rule ability](diagrams/ability.svg)
+
+### doc-comment
+
+Documentation comments are special comments that are used to generate documentation for your code. They are similar to block comments but start with three slashes /// and are placed before the definition of the item they document. (AST: [DocComment](https://github.com/MystenLabs/sui/blob/mainnet-v1.43.1/external-crates/move/crates/move-compiler/src/parser/ast.rs#L108), Doc: [Doc comment](https://move-book.com/move-basics/comments.html#doc-comment))
+
+![Rule doc-comment](diagrams/doc-comment.svg)
