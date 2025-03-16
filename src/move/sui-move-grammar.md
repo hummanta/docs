@@ -16,17 +16,23 @@ An enum is a user-defined data structure containing one or more variants. Each v
 
 ![Rule enum-definition](diagrams/enum-definition.svg)
 
-### abilities
-
-This type is used in multiple places. To avoid redundant definitions, a shared virtual type is created to simplify imports.
-
-![Rule abilities](diagrams/abilities.svg)
-
 ### type-parameters
 
 This type is used in multiple places. To avoid redundant definitions, a shared virtual type is created to simplify imports.
 
 ![Rule type-parameters](diagrams/type-parameters.svg)
+
+## type-parameter
+
+Both functions and structs can take a list of type parameters in their signatures, enclosed by a pair of angle brackets <...>. (AST: [DatatypeTypeParameter](https://github.com/MystenLabs/sui/blob/mainnet-v1.43.1/external-crates/move/crates/move-compiler/src/parser/ast.rs#L259), Doc: [Declaring Type Parameters](https://move-book.com/reference/generics.html#declaring-type-parameters))
+
+![Rule type-parameter](diagrams/type-parameter.svg)
+
+### abilities
+
+This type is used in multiple places. To avoid redundant definitions, a shared virtual type is created to simplify imports.
+
+![Rule abilities](diagrams/abilities.svg)
 
 ### ability
 
