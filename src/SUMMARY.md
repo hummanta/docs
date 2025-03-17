@@ -5,6 +5,7 @@
 # Concepts
 
 - [Target](./concepts/target.md)
+- [Toolchain](./concepts/toolchain.md)
 
 # Solidity
 
