@@ -18,6 +18,7 @@ SUBCOMMANDS:
     help       Prints this message or the help of the given subcommand(s)
     init       Initializes the workspace
     target     View and manage supported targets for the toolchain
+    toolchain  Manage different toolchains used for the compilation process
 ```
 
 ## Init
