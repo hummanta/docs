@@ -62,6 +62,22 @@ hummanta target list
 
 For more information about the `target`, see the core concept [Target](../concepts/target.md).
 
+## Toolchain
+
+View and manage different toolchains used for the compilation process.
+
+```bash
+hummanta toolchain add <language>
+hummanta toolchain remove <language>
+hummanta toolchain list
+```
+
+- `add`: Installs the specified language's toolchain.
+- `remove`: Removes the toolchain for the specified language.
+- `list`: Lists all installed toolchains.
+
+For more information about the toolchain, see the core concept [Toolchain](../concepts/toolchain.md).
+
 ## Frequently Asked Questions
 
 ### 1. How do I switch the target platform?
