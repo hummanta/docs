@@ -15,10 +15,10 @@ FLAGS:
 SUBCOMMANDS:
     build      Builds the entire workspace
     compile    Compiles specified source code
-    help       Prints this message or the help of the given subcommand(s)
     init       Initializes the workspace
     target     View and manage supported targets for the toolchain
     toolchain  Manage different toolchains used for the compilation process
+    help       Prints this message or the help of the given subcommand(s)
 ```
 
 ## Init
@@ -59,7 +59,7 @@ hummanta target list
 - `add`: Adds a new target configuration.
 - `remove`: Removes the specified target configuration.
 - `show`: Displays the details of the specified target.
-- `list`: Lists all configured targets.
+- `list`: Lists all targets.
 
 For more information about the `target`, see the core concept [Target](../concepts/target.md).
 
@@ -75,7 +75,7 @@ hummanta toolchain list
 
 - `add`: Installs the specified language's toolchain.
 - `remove`: Removes the toolchain for the specified language.
-- `list`: Lists all installed toolchains.
+- `list`: Lists all toolchains.
 
 For more information about the toolchain, see the core concept [Toolchain](../concepts/toolchain.md).
 
