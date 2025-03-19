@@ -40,7 +40,7 @@ For more details on using toolchain-related commands, refer to the [CLI Referenc
 
 Hummanta stores toolchains under the `~/.hummanta/toolchains/` directory, creating a separate subdirectory for each language or platform, for example:
 
-```
+```text
 ~/.hummanta/toolchains/
   ├── solidity/
   │   ├── detect        # Executable for detecting project type
