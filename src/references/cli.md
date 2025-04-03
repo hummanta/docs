@@ -5,20 +5,19 @@
 Hummanta is a tool for compiling multiple languages, supporting the build and compilation of projects such as Solidity and Rust. The toolchain provides a flexible command-line interface, allowing users to easily manage and compile code for different target platforms. The following commands are available for building, managing, and configuring the workspace:
 
 ```text
-USAGE:
-    hummanta <SUBCOMMAND>
+Usage: hummanta <COMMAND>
 
-FLAGS:
-    -h, --help       Prints help information
-    -V, --version    Prints version information
+Commands:
+  build      Builds the entire workspace
+  compile    Compiles specified source code
+  init       Initializes the workspace
+  target     View and manage compilation targets
+  toolchain  Manage compilation toolchains
+  version    Manage Hummanta versions
+  help       Print this message or the help of the given subcommand(s)
 
-SUBCOMMANDS:
-    build      Builds the entire workspace
-    compile    Compiles specified source code
-    init       Initializes the workspace
-    target     View and manage supported targets for the toolchain
-    toolchain  Manage different toolchains used for the compilation process
-    help       Prints this message or the help of the given subcommand(s)
+Options:
+  -h, --help  Print help
 ```
 
 ## Init
@@ -47,7 +46,7 @@ hummanta compile --target=<target>
 
 ## Target
 
-View and manage different target configurations.
+View and manage compilation targets.
 
 ```bash
 hummanta target add <target>
@@ -78,6 +77,22 @@ hummanta toolchain list
 - `list`: Lists all toolchains.
 
 For more information about the toolchain, see the core concept [Toolchain](../concepts/toolchain.md).
+
+## Version
+
+Manage Hummanta versions
+
+```bash
+hummanta version add <VERSION>
+hummanta version list
+hummanta version remove [OPTIONS] <VERSION>
+hummanta version switch <VERSION>
+```
+
+- `add`: Add a specific Hummanta version
+- `list`: List all installed versions
+- `remove`: Remove a version
+- `switch`: Change active version
 
 ## Frequently Asked Questions
 
