@@ -2,6 +2,8 @@
 
 [The Hummanta Documentation](./README.md)
 
+- [Getting Started](getting-started.md)
+
 # Concepts
 
 - [Target](./concepts/target.md)
