@@ -13,7 +13,6 @@ Commands:
   init       Initializes the workspace
   target     View and manage compilation targets
   toolchain  Manage compilation toolchains
-  version    Manage Hummanta versions
   help       Print this message or the help of the given subcommand(s)
 
 Options:
@@ -69,30 +68,16 @@ View and manage different toolchains used for the compilation process.
 ```bash
 hummanta toolchain add <language>
 hummanta toolchain remove <language>
+hummanta toolchain show <language>
 hummanta toolchain list
 ```
 
 - `add`: Installs the specified language's toolchain.
 - `remove`: Removes the toolchain for the specified language.
+- `show`: Displays the details of the the specified language's toolchain.
 - `list`: Lists all toolchains.
 
 For more information about the toolchain, see the core concept [Toolchain](../concepts/toolchain.md).
-
-## Version
-
-Manage Hummanta versions
-
-```bash
-hummanta version add <VERSION>
-hummanta version list
-hummanta version remove [OPTIONS] <VERSION>
-hummanta version switch <VERSION>
-```
-
-- `add`: Add a specific Hummanta version
-- `list`: List all installed versions
-- `remove`: Remove a version
-- `switch`: Change active version
 
 ## Frequently Asked Questions
 

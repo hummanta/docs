@@ -26,16 +26,6 @@ Run `hummanta --help` for a list of all the available commands. Furthermore, you
 
 ## 2. Setup
 
-### Manage Hummanta Versions
-
-Hummanta versions follow our GitHub Releases. Each new release is published on our [GitHub Releases page](https://github.com/hummanta/hummanta/releases). When a new version becomes available, you can install it by specifying the version number. The latest stable version is **v0.4.0**.
-
-To install this version:
-
-```bash
-hummanta version add v0.4.0
-```
-
 ### Install the Required Toolchain
 
 To compile Solidity contracts, install the Solidity toolchain:
