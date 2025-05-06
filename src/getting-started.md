@@ -71,7 +71,6 @@ hummanta build --target=EVM  # For Ethereum Virtual Machine
 
 Now that you’ve set up Hummanta and built your first project, here are some additional features to explore:
 
-- Use `hummanta compile` for individual files
 - Manage platforms with `hummanta target`
 - Add language support via `hummanta toolchain`
 

@@ -9,7 +9,6 @@ Usage: hummanta <COMMAND>
 
 Commands:
   build      Builds the entire workspace
-  compile    Compiles specified source code
   init       Initializes the workspace
   target     View and manage compilation targets
   toolchain  Manage compilation toolchains
@@ -33,14 +32,6 @@ Builds the entire project and compiles the source code files.
 
 ```bash
 hummanta build --target=<target>
-```
-
-## Compile
-
-Compiles the specified source code file.
-
-```bash
-hummanta compile --target=<target>
 ```
 
 ## Target
@@ -83,7 +74,8 @@ For more information about the toolchain, see the core concept [Toolchain](../co
 
 ### 1. How do I switch the target platform?
 
-You can specify the target platform by using `hummanta build --target=<target>` or `hummanta compile --target=<target>`. If no target is specified, the default target from the `hummanta.toml` file will be used.
+You can specify the target platform by using `hummanta build --target=<target>`.
+If no target is specified, the default target from the `hummanta.toml` file will be used.
 
 ### 2. What should I do if the `hummanta.toml` file is missing?
 

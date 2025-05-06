@@ -54,10 +54,10 @@ More details on using target-related commands can be found in the [CLI Reference
 
 ### 3. Automated Compilation Workflow
 
-Hummanta allows users to compile their code using `hummanta compile`, following a structured process:
+Hummanta allows users to compile their code using `hummanta build`, following a structured process:
 
 ```sh
-hummanta compile --target=sui
+hummanta build --target=sui
 ```
 
 - Parses `hummanta.toml` to determine the target environment.
