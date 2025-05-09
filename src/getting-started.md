@@ -17,7 +17,7 @@ Prebuilt binaries Windows, Linux and macOS can be downloaded from the [Github re
 To get the latest bug fixes and features, you can install the development version from git. However, this is not fully tested. That means you're probably going to have more bugs despite having the latest bug fixes.
 
 ```bash
-cargo install --git https://github.com/hummanta/hummanta
+cargo install hmt-cli --git https://github.com/hummanta/hummanta
 ```
 
 This will download and install the Hummanta CLI in Cargo’s global binary directory (`~/.cargo/bin/` by default).
